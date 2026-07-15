@@ -231,9 +231,9 @@ const objectGroups = {
 
             {
                 id: "fireStations2",
-                title: "МВД ТИНАО",
+                title: "МВД НАО",
                 description: "",
-                image: "objects/тинаоМВД.jpg"
+                image: "objects/наоМВД.jpg"
             },
 
             {
