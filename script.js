@@ -203,21 +203,21 @@ const objectGroups = {
             {
                 id: "militaryOffices1",
                 title: "ВК ЗАО",
-                description: "",
+                description: "г. Москва, ул. Партизанская, д. 19",
                 image: "objects/заоВК.jpg"
             },
 
             {
                 id: "militaryOffices2",
-                title: "ВК ТИНАО",
-                description: "",
+                title: "ВК ТиНАО",
+                description: "г. Москва, ул. Аллея Витте, д.5",
                 image: "objects/тинаоВК.jpg"
             },
 
             {
                 id: "militaryOffices3",
                 title: "ВК ЮЗАО",
-                description: "",
+                description: "г. Москва, ул. Вавилова, д. 44 к. 1",
                 image: "objects/юзаоВК.jpg"
             },
     ],
@@ -226,21 +226,21 @@ const objectGroups = {
             {
                 id: "fireStations1",
                 title: "МВД ЗАО",
-                description: "",
+                description: "г. Москва, ул. Лобачевского, д. 116.",
                 image: "objects/заоМВД.jpg"
             },
 
             {
                 id: "fireStations2",
-                title: "МВД НАО",
-                description: "",
+                title: "МВД ТиНАО",
+                description: "г. Москва, г. Троицк, ул. Физическая, д. 13.",
                 image: "objects/наоМВД.jpg"
             },
 
             {
                 id: "fireStations3",
                 title: "МВД ЮЗАО",
-                description: "",
+                description: "г. Москва, ул. Кржижановского, д. 20/30, корп. 7.",
                 image: "objects/юзаоМВД.jpg"
             },
     ]
