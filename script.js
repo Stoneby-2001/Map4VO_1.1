@@ -203,44 +203,44 @@ const objectGroups = {
                 id: "militaryOffices1",
                 title: "ВК ЗАО",
                 description: "",
-                image: "objects/зао.jpg"
+                image: "objects/заоВК.jpg"
             },
 
             {
                 id: "militaryOffices2",
                 title: "ВК ТИНАО",
                 description: "",
-                image: "objects/тинао.jpg"
+                image: "objects/тинаоВК.jpg"
             },
 
             {
                 id: "militaryOffices3",
                 title: "ВК ЮЗАО",
                 description: "",
-                image: "objects/юзао.jpg"
+                image: "objects/юзаоВК.jpg"
             },
     ],
 
     fireStations: [
             {
                 id: "fireStations1",
-                title: "МЧС №1",
-                description: "Проверочная карточка №1.",
-                image: "images/military_police.png"
+                title: "МВД ЗАО",
+                description: "",
+                image: "objects/заоМВД.jpg"
             },
 
             {
                 id: "fireStations2",
-                title: "МЧС №2",
-                description: "Проверочная карточка №2.",
-                image: "images/military_police.png"
+                title: "МВД ТИНАО",
+                description: "",
+                image: "objects/тинаоМВД.jpg"
             },
 
             {
                 id: "fireStations3",
-                title: "МЧС №3",
-                description: "Проверочная карточка №3.",
-                image: "images/military_police.png"
+                title: "МВД ЮЗАО",
+                description: "",
+                image: "objects/юзаоМВД.jpg"
             },
     ]
 
