@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта 4 ВО г. Москвы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>ИНТЕРАКТИВНАЯ КАРТА МАРШРУТОВ 4 КОМЕНДАНСТКОГО РАЙОНА</h1>
+        <p>Военная Комендатура г. Москвы</p>
+    </div>
+
+    <div class="map-container">
+
+        <div class="background-emblems">
+
+            <img
+                src="images/russia.webp"
+                alt="Герб Российской Федерации"
+                class="emblem emblem-left"
+            >
+
+            <img
+                src="images/military_police.png"
+                alt="Герб Военной полиции"
+                class="emblem emblem-right"
+            >
+
+        </div>
+
+        <div id="leftObjectPanel" class="object-panel object-panel-left"></div>
+
+        <div id="rightObjectPanel" class="object-panel object-panel-right"></div>
+
+        <div id="mapViewport">
+            <img id="mainMap" src="main_map.webp" alt="Карта 4 ВО" draggable="false">
+        
+            <!-- SVG слой для кликабельных областей -->
+            <svg id="overlay" class="overlay"></svg>
+        </div>
+
+        <div class="map-controls">
+
+            <button id="zoomInBtn" title="Увеличить масштаб">+</button>
+
+            <button id="zoomOutBtn" title="Уменьшить масштаб">−</button>
+
+            <button id="resetBtn" title="Сбросить масштаб">⌂</button>
+
+        </div>
+
+        <div class="object-controls">
+
+            <!-- <button id="militaryUnitsBtn">
+                Военные части
+            </button> -->
+
+            <button id="militaryOfficesBtn">
+                Военкоматы
+            </button>
+
+            <button id="fireStationsBtn">
+                МЧС
+            </button>
+
+        </div>
+    </div>
+
+    <!-- Модальное окно для увеличенного фрагмента -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-text">
+
+                    <h2 id="modalTitle"></h2>
+
+                    <p id="modalSubtitle"></p>
+
+                </div>
+                <button id="closeBtn">&times;</button>
+            </div>
+            <img id="modalImage" src="" alt="Увеличенный фрагмент">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
